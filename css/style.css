@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --fontstyle:'Open Sans', sans-serif;
+    --fontcolor: #FBD784;
+}
+body{
+    background-color: #000;
+    /* height: 3500px; */
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* This is the main menu part is css  */
+#banner_part{
+    padding: 10px 0;
+    height: 1200px;
+    background: url('../images/Header.png') no-repeat center center/cover;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#banner_part .menu_parent{
+    padding: 28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#banner_part .menu_parent .logo{
+    /* display: inline-block; */
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: var(--fontstyle);
+}
+#banner_part .menu_parent ul{
+    display: flex;
+    column-gap: 60px;
+}
+#banner_part .menu_parent ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: var(--fontstyle);
+}
+#banner_part .menu_parent ul a:hover{
+    color: #000;
+}
+/* This item only for banner text  */
+#banner_part .banner_text{
+    margin-top: 400px;
+}
+#banner_part .banner_text .all_text{
+    width: 517px;
+}
+#banner_part .banner_text .all_text .banner_textp{
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-weight: var(--fontstyle);
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+#banner_part .banner_text .banner_texth{
+    margin-top: 37px;
+    width: 860px;
+}
+#banner_part .banner_text .banner_texth span{
+    display: block;
+    color: #fff;
+    font-size: 96px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#banner_part .banner_text .banner_texth h1{
+    color: #fff;
+    font-size: 88px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* This item only for banner text  */
+#slider_part .sliderall img{
+   margin-top: 315px;
+}
+#slider_part .sliderall .img img{
+    width: 630px;
+    height: 700px;
+    
+}
+#slider_part .sliderall{
+    display: flex;
+    color: #fff;
+}
+#slider_part .sliderall .text{
+    margin-left: 23px;
+    margin-top: 360px;
+}
+#slider_part .sliderall .slider_p{
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#slider_part .sliderall .slider_h{
+    margin-top: 13px;
+    width: 496px;
+    color: #fff;
+    font-size: 64px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#slider_part .sliderall .slider_para{
+    width: 580px;
+    font-size: 14px;
+    font-family: var(--fontstyle);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;
+}
+#slider_part .sliderall .btn{
+    display: block;
+    text-decoration: none;
+    color: var(--fontcolor);
+    margin-top: 66px;
+    font-size: 18px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* End of the slider part  */
+
+#bromo_part .bromo_body{
+    margin-top: 350px;
+    background: url('../images/bromo.jpg') no-repeat center center/cover;
+    height: 950px;
+    position: relative;
+    
+}
+#bromo_part .bromo_body .bromo_text{
+    position: absolute;
+    margin-top: 550px;
+}
+#bromo_part .bromo_body .bromo_text .bromo_head{
+    color: var(--fontcolor);
+    margin-left: 610px;
+    font-size: 18px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#bromo_part .bromo_body .bromo_text .bromo_h1{
+    width: 930px;
+    margin-top: 13px;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    font-family: var(--fontstyle);
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 194px;
+}
+#bromo_part .bromo_body .bromo_text .bromo_p{
+    width: 890px;
+    margin-top: 13px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 213px;
+}
+#bromo_part .bromo_body .bromo_text .btn{
+    display: block;
+    margin-top: 26px;
+    text-decoration: none;
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 605px;
+}
+/* End the bromo section  */
+/* Start the slider2 css  */
+#slider2 .all_element{
+    display: flex;
+    margin-top: 400px;
+}
+#slider2 .all_element .all_text .slider2_head{
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+#slider2 .all_element .all_text .slider2_h{
+    width: 660px;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--fontstyle);
+    text-transform: uppercase;
+}
+#slider2 .all_element .all_text{
+    margin-right: 40px;
+}
+#slider2 .all_element .all_text .slider2_p{
+    width: 650px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+#slider2 .all_element .all_text .btn{
+    display: block;
+    text-decoration: none;
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+#slider2 .all_element .img{
+    width: 600px;
+    height: 750px;
+}
+/* End of the slider2 css  */
+.alldiv_element{
+    color: #fff;
+    padding: 100px 0;
+}
+#footer_section .alldiv_element{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+/* The footer section start in css here  */
+#footer_section{
+    margin-top: 180px;
+   
+}
+#footer_section .alldiv_element .left_section{
+    margin-right: 100px;
+}
+#footer_section .alldiv_element .left_section img{
+    color: var(--fontcolor);
+    font-size: 48px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    letter-spacing: .48px;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .left_section .des_text h1{
+    margin-top: 80px;
+    width: 400px;
+    color: #fff;
+    font-family: var(--fontstyle);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .left_section .icon p{
+    margin-top: 45px;
+    color: #fff;
+    font-size: 15px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .left_section .icon .icon_1 a{
+    display: inline-block;
+    margin-top: 35px;
+    padding-right: 20px;
+}
+
+
+/* This is footer services section css  */
+#footer_section .alldiv_element .servie_section{
+    margin-top: 60px;
+    
+}
+#footer_section .alldiv_element .servie_section h3{
+    color: var(--fontcolor);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: -0.3px;
+}
+#footer_section .alldiv_element .servie_section ol{
+    margin-top: 11px;
+}
+#footer_section .alldiv_element .servie_section ol li{
+    color: #fff;
+    font-size: 19px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: -0.3px;
+}
+
+#footer_section .alldiv_element .about_section p{
+    color: #fff;
+    font-size: 22px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .about_section h3{
+    margin-top: 29px;
+    color: var(--fontcolor);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .about_section ol{
+    margin-top: 11px;
+}
+#footer_section .alldiv_element .about_section ol li{
+    color: #fff;
+    font-size: 19px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: -0.3px;
+}
+
+#footer_section .alldiv_element .help_section .btn a{
+    padding: 20px 65px;
+    background-color: #FFA343;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-family: var(--fontstyle);
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#footer_section .alldiv_element .help_section h3{
+    margin-top: 36px;
+    color: var(--fontcolor);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+#footer_section .alldiv_element .help_section ol{
+    margin-top: 11px;
+}
+#footer_section .alldiv_element .help_section ol li{
+    color: #fff;
+    font-size: 19px;
+    font-family: var(--fontstyle);
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: -0.3px;
+}
+/* End of the footer section in css  */
+
+/* This is copyright section in css  */
+#copy_section .copy_sec p{
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    opacity: 0.3;
+    font-family: var(--fontstyle);
+    font-size: 18px;
+    font-weight: 600;
+}
+#copy_section .copy_sec span{
+    font-family: var(--fontstyle);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+/* End of the copy section  */
